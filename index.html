@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Veolinan Validator</title>
+  </head>
+  <body>
+    <H1 style="background-color: rgb(105, 232, 237); text-align: center;">Fun Validator </H1>
+    
+    <main class="main">
+      <div class="container">
+        <form action="" id="form-el" class="form col">
+          <input
+            class="form-input"
+            type="text"
+            name="username"
+            id="username-el"
+            placeholder="user atleast 4 char"
+            minlength="4"
+          />
+          <input
+            class="form-input"
+            type="email"
+            name="email"
+            id="email-el"
+            placeholder="your@email.com"
+            required
+          />
+          <input
+            class="form-input"
+            type="password"
+            name=""
+            id="password-el"
+            placeholder="password not less than 4"
+            minlength="4"
+            required
+          />
+
+          <button class="btn">Submit</button>
+        </form>
+      </div>
+    </main>
+  </body>
+  <script src="./main.js"></script>
+</html>
